@@ -55,6 +55,9 @@ namespace Confitec.WebApi.Controllers.V1
         [HttpPut("{id:int}")]
         public async Task<ActionResult<UsuarioViewModel>> Atualizar(int id, UsuarioViewModel usuarioViewModel)
         {
+            if (!ModelState.IsValid)
+                return BadRequest();
+
             if (id != usuarioViewModel.Id) return BadRequest();
 
             await _usuarioService.Atualizar(_mapper.Map<Usuarios>(usuarioViewModel));
