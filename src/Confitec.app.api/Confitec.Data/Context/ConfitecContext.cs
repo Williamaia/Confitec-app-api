@@ -1,9 +1,7 @@
 ﻿using Confitec.Business.Models;
 using Microsoft.EntityFrameworkCore;
 using System;
-using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
@@ -13,7 +11,7 @@ namespace Confitec.Data.Context
     {
         public ConfitecContext(DbContextOptions<ConfitecContext> options) : base(options) { }
 
-        public DbSet<Usuario> Usuarios { get; set; }
+        public DbSet<Usuarios> Usuarios { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

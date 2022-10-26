@@ -1,15 +1,12 @@
+using Confitec.Data.Context;
+using Confitec.WebApi.Configurations;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.HttpsPolicy;
-using Microsoft.AspNetCore.Mvc;
+using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
-using Microsoft.Extensions.Logging;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Microsoft.OpenApi.Models;
 
 namespace Confitec.WebApi
 {
@@ -25,7 +22,26 @@ namespace Confitec.WebApi
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddDbContext<ConfitecContext>(options =>
+            {
+                options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
+            });
+
+            services.AddSwaggerGen(options =>
+            {
+                options.SwaggerDoc("v1", new OpenApiInfo
+                {
+                    Version = "v1",
+                    Title = "Confitec API",
+                    Description = "API para teste de conhecimento"
+                });
+            });
+
+            services.AddAutoMapper(typeof(Startup));
+            //services.AddSwaggerConfig();
+            services.ResolveDependecies();
             services.AddControllers();
+            services.AddApiVersioning();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -35,6 +51,14 @@ namespace Confitec.WebApi
             {
                 app.UseDeveloperExceptionPage();
             }
+
+            app.UseSwagger();
+            app.UseSwaggerUI(
+                options =>
+                {
+                    options.RoutePrefix = string.Empty;
+                    options.SwaggerEndpoint("/swagger/v1/swagger.json", "v1");
+                });
 
             app.UseHttpsRedirection();
 

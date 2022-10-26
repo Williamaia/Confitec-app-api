@@ -7,7 +7,7 @@ using System.Text;
 
 namespace Confitec.Data.Repository
 {
-    public class UsuarioRepository : Repository<Usuario>, IUsuarioRepository
+    public class UsuarioRepository : Repository<Usuarios>, IUsuarioRepository
     {
         public UsuarioRepository(ConfitecContext context) : base(context)
         {

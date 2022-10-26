@@ -4,7 +4,7 @@ using System.Text;
 
 namespace Confitec.Business.Models
 {
-    public class Usuario : Entity
+    public class Usuarios : Entity
     {
         public int Id { get; set; }
         public string Nome { get; set; }

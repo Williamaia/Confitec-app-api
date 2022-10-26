@@ -6,5 +6,5 @@ using System.Threading.Tasks;
 
 namespace Confitec.Business.Interfaces
 {
-    public interface IUsuarioRepository : IRepository<Usuario>{ }
+    public interface IUsuarioRepository : IRepository<Usuarios>{ }
 }
