@@ -9,7 +9,7 @@ namespace Confitec.Data.Repository
 {
     public class UsuarioRepository : Repository<Usuarios>, IUsuarioRepository
     {
-        public UsuarioRepository(ConfitecContext context) : base(context)
+        public UsuarioRepository(ApplicationDbContext context) : base(context)
         {
         }
     }

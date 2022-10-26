@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "Yo5bw8Pc4Vak5F+a0WcGAEWdFZT9DjbuwT12bBiJ3Qc4BqCkZp715oRG4nZ7XwZ86iJ6jDEHOLn8bAvrTJm1jg==",
+  "dgSpecHash": "pzpQEYfyjlwrZZdT5Hx48fd0RO4VWe/voP5FMKmGCSGLb6OngSET/pOG1PerkWGmSNIC5f9hTbYQ8K6yIEfSRA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj",
+  "projectFilePath": "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

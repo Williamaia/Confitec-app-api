@@ -13,7 +13,7 @@ namespace Confitec.WebApi.Configurations
         public static IServiceCollection ResolveDependecies(this IServiceCollection services)
         {
             #region Context
-            services.AddScoped<ConfitecContext>();
+            services.AddScoped<ApplicationDbContext>();
             #endregion
 
             #region Repository

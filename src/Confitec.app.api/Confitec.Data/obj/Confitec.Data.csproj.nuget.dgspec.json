@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Data\\Confitec.Data.csproj": {}
+    "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Data\\Confitec.Data.csproj": {}
   },
   "projects": {
-    "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj": {
+    "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj",
+        "projectUniqueName": "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj",
         "projectName": "Confitec.Business",
-        "projectPath": "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj",
+        "projectPath": "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj",
         "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\obj\\",
+        "outputPath": "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -62,14 +62,14 @@
         }
       }
     },
-    "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Data\\Confitec.Data.csproj": {
+    "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Data\\Confitec.Data.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Data\\Confitec.Data.csproj",
+        "projectUniqueName": "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Data\\Confitec.Data.csproj",
         "projectName": "Confitec.Data",
-        "projectPath": "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Data\\Confitec.Data.csproj",
+        "projectPath": "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Data\\Confitec.Data.csproj",
         "packagesPath": "C:\\Users\\willi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Data\\obj\\",
+        "outputPath": "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Data\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -90,8 +90,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj": {
-                "projectPath": "C:\\Users\\willi\\Projetos\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj"
+              "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj": {
+                "projectPath": "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj"
               }
             }
           }
@@ -106,11 +106,35 @@
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
           "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.3.0, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[5.0.10, )"
             },
+            "Microsoft.EntityFrameworkCore.Abstractions": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
             "Microsoft.EntityFrameworkCore.Relational": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.10, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
               "version": "[5.0.10, )"
             }

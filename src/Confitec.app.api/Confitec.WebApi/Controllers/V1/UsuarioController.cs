@@ -44,7 +44,7 @@ namespace Confitec.WebApi.Controllers.V1
         [HttpPost]
         public async Task<ActionResult<UsuarioViewModel>> Adicionar(UsuarioViewModel usuarioViewModel)
         {
-            if (!ModelState.IsValid) return BadRequest(ModelState);
+            //if (!ModelState.IsValid) return BadRequest(ModelState);
 
             await _usuarioService.Adicionar(_mapper.Map<Usuarios>(usuarioViewModel));
 

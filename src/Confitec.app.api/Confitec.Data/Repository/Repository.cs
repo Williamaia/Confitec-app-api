@@ -13,10 +13,10 @@ namespace Confitec.Data.Repository
 {
     public abstract class Repository<TEntity> : IRepository<TEntity> where TEntity : Entity, new()
     {
-        protected readonly ConfitecContext Db;
+        protected readonly ApplicationDbContext Db;
         protected readonly DbSet<TEntity> DbSet;
 
-        protected Repository(ConfitecContext db)
+        protected Repository(ApplicationDbContext db)
         {
             Db = db;
             DbSet = db.Set<TEntity>();

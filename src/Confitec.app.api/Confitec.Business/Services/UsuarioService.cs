@@ -16,7 +16,6 @@ namespace Confitec.Business.Services
             _usuarioRepository = usuarioRepository;
         }
 
-
         public async Task<bool> Adicionar(Usuarios usuario)
         {
             throw new NotImplementedException();
@@ -27,12 +26,12 @@ namespace Confitec.Business.Services
             throw new NotImplementedException();
         }
 
-        public void Dispose()
+        public Task<bool> Remover(int id)
         {
             throw new NotImplementedException();
         }
 
-        public Task<bool> Remover(int id)
+        public void Dispose()
         {
             throw new NotImplementedException();
         }
