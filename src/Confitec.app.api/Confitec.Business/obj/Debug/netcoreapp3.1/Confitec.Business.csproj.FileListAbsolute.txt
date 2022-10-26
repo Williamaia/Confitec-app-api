@@ -1,0 +1,10 @@
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Business\bin\Debug\netcoreapp3.1\Confitec.Business.deps.json
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Business\bin\Debug\netcoreapp3.1\Confitec.Business.dll
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Business\bin\Debug\netcoreapp3.1\Confitec.Business.pdb
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Business\obj\Debug\netcoreapp3.1\Confitec.Business.csproj.AssemblyReference.cache
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Business\obj\Debug\netcoreapp3.1\Confitec.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Business\obj\Debug\netcoreapp3.1\Confitec.Business.AssemblyInfoInputs.cache
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Business\obj\Debug\netcoreapp3.1\Confitec.Business.AssemblyInfo.cs
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Business\obj\Debug\netcoreapp3.1\Confitec.Business.csproj.CoreCompileInputs.cache
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Business\obj\Debug\netcoreapp3.1\Confitec.Business.dll
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Business\obj\Debug\netcoreapp3.1\Confitec.Business.pdb

@@ -1,0 +1,13 @@
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\bin\Debug\netcoreapp3.1\Confitec.Data.deps.json
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\bin\Debug\netcoreapp3.1\Confitec.Data.dll
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\bin\Debug\netcoreapp3.1\Confitec.Data.pdb
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\bin\Debug\netcoreapp3.1\Confitec.Business.dll
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\bin\Debug\netcoreapp3.1\Confitec.Business.pdb
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\obj\Debug\netcoreapp3.1\Confitec.Data.csproj.AssemblyReference.cache
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\obj\Debug\netcoreapp3.1\Confitec.Data.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\obj\Debug\netcoreapp3.1\Confitec.Data.AssemblyInfoInputs.cache
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\obj\Debug\netcoreapp3.1\Confitec.Data.AssemblyInfo.cs
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\obj\Debug\netcoreapp3.1\Confitec.Data.csproj.CoreCompileInputs.cache
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\obj\Debug\netcoreapp3.1\Confitec.Data.csproj.CopyComplete
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\obj\Debug\netcoreapp3.1\Confitec.Data.dll
+C:\Users\willi\Projetos\Confitec-app-api\src\Confitec.app.api\Confitec.Data\obj\Debug\netcoreapp3.1\Confitec.Data.pdb
