@@ -84,3 +84,8 @@ C:\Users\willi\Documents\Confitec-app-api\src\Confitec.app.api\Confitec.WebApi\b
 C:\Users\willi\Documents\Confitec-app-api\src\Confitec.app.api\Confitec.WebApi\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
 C:\Users\willi\Documents\Confitec-app-api\src\Confitec.app.api\Confitec.WebApi\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
 C:\Users\willi\Documents\Confitec-app-api\src\Confitec.app.api\Confitec.WebApi\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\willi\Documents\Confitec-app-api\src\Confitec.app.api\Confitec.WebApi\bin\Debug\netcoreapp3.1\Humanizer.dll
+C:\Users\willi\Documents\Confitec-app-api\src\Confitec.app.api\Confitec.WebApi\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+C:\Users\willi\Documents\Confitec-app-api\src\Confitec.app.api\Confitec.WebApi\bin\Debug\netcoreapp3.1\FluentValidation.dll
+C:\Users\willi\Documents\Confitec-app-api\src\Confitec.app.api\Confitec.WebApi\bin\Debug\netcoreapp3.1\FluentValidation.AspNetCore.dll
+C:\Users\willi\Documents\Confitec-app-api\src\Confitec.app.api\Confitec.WebApi\bin\Debug\netcoreapp3.1\FluentValidation.DependencyInjectionExtensions.dll

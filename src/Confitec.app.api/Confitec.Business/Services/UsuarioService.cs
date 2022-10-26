@@ -1,8 +1,6 @@
 ﻿using Confitec.Business.Interfaces;
 using Confitec.Business.Models;
 using System;
-using System.Collections.Generic;
-using System.Text;
 using System.Threading.Tasks;
 
 namespace Confitec.Business.Services
@@ -16,24 +14,24 @@ namespace Confitec.Business.Services
             _usuarioRepository = usuarioRepository;
         }
 
-        public async Task<bool> Adicionar(Usuarios usuario)
+        public async Task Adicionar(Usuarios usuario)
         {
-            throw new NotImplementedException();
+           await _usuarioRepository.Adicionar(usuario);
         }
 
-        public Task<bool> Atualizar(Usuarios usuario)
+        public async Task Atualizar(Usuarios usuario)
         {
-            throw new NotImplementedException();
+            await _usuarioRepository.Atualizar(usuario);
         }
 
-        public Task<bool> Remover(int id)
+        public async Task Remover(int id)
         {
-            throw new NotImplementedException();
+            await _usuarioRepository.Remover(id);
         }
 
         public void Dispose()
         {
-            throw new NotImplementedException();
+            _usuarioRepository?.Dispose();
         }
     }
 }

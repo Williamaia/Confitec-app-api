@@ -51,7 +51,7 @@ namespace Confitec.Data.Repository
 
         public virtual async Task Remover(int id)
         {
-            DbSet.Remove(new TEntity { Id = id });
+            DbSet.Remove(new TEntity { Id = id });   
             await SaveChanges();
         }
 

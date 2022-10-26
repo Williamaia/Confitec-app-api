@@ -8,9 +8,9 @@ namespace Confitec.Business.Interfaces
 {
     public interface IUsuarioService : IDisposable
     {
-        Task<bool> Adicionar(Usuarios usuario);
-        Task<bool> Atualizar(Usuarios usuario);
-        Task<bool> Remover(int id);
+        Task Adicionar(Usuarios usuario);
+        Task Atualizar(Usuarios usuario);
+        Task Remover(int id);
 
     }
 }

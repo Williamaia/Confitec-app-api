@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "pzpQEYfyjlwrZZdT5Hx48fd0RO4VWe/voP5FMKmGCSGLb6OngSET/pOG1PerkWGmSNIC5f9hTbYQ8K6yIEfSRA==",
+  "dgSpecHash": "F4u9lEtHKPnr/UoN+zjnNDYH/3W/gWL3RA82nhvLnmj3Kbb7V/1U8ewd3/14cRocQVbh22mGhS139YX+CA4ljw==",
   "success": true,
   "projectFilePath": "C:\\Users\\willi\\Documents\\Confitec-app-api\\src\\Confitec.app.api\\Confitec.Business\\Confitec.Business.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\willi\\.nuget\\packages\\fluentvalidation\\11.2.2\\fluentvalidation.11.2.2.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -1,5 +1,8 @@
 using Confitec.Data.Context;
 using Confitec.WebApi.Configurations;
+using Confitec.WebApi.ViewModels;
+using FluentValidation;
+using FluentValidation.AspNetCore;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.EntityFrameworkCore;
@@ -26,6 +29,9 @@ namespace Confitec.WebApi
             {
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
+
+            //services.AddValidatorsFromAssembly(typeof(UsuarioViewModelValidator).Assembly);
+            services.AddScoped<IValidator<UsuarioViewModel>, UsuarioViewModelValidator>();
 
             services.AddSwaggerGen(options =>
             {

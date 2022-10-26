@@ -31,7 +31,7 @@ namespace Confitec.WebApi.Controllers.V1
             return usuarios;
         }
 
-        [HttpGet("{id:guid}")]
+        [HttpGet("{id:int}")]
         public async Task<ActionResult<UsuarioViewModel>> ObterPorId(int id)
         {
             var usuario = await _usuarioRepository.ObterPorId(id);
@@ -44,25 +44,25 @@ namespace Confitec.WebApi.Controllers.V1
         [HttpPost]
         public async Task<ActionResult<UsuarioViewModel>> Adicionar(UsuarioViewModel usuarioViewModel)
         {
-            //if (!ModelState.IsValid) return BadRequest(ModelState);
+            if (!ModelState.IsValid)
+                return BadRequest();
 
             await _usuarioService.Adicionar(_mapper.Map<Usuarios>(usuarioViewModel));
 
             return Created("", usuarioViewModel);
         }
 
-        [HttpPut("{id:guid}")]
+        [HttpPut("{id:int}")]
         public async Task<ActionResult<UsuarioViewModel>> Atualizar(int id, UsuarioViewModel usuarioViewModel)
         {
             if (id != usuarioViewModel.Id) return BadRequest();
-            if (!ModelState.IsValid) return BadRequest(ModelState);
 
             await _usuarioService.Atualizar(_mapper.Map<Usuarios>(usuarioViewModel));
 
             return Created("", usuarioViewModel);
         }
 
-        [HttpDelete("{id:guid}")]
+        [HttpDelete("{id:int}")]
         public async Task<ActionResult<UsuarioViewModel>> Excluir(int id)
         {
             var usuario = await _usuarioRepository.ObterPorId(id);
