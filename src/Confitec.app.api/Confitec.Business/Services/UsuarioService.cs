@@ -16,7 +16,7 @@ namespace Confitec.Business.Services
 
         public async Task Adicionar(Usuarios usuario)
         {
-           await _usuarioRepository.Adicionar(usuario);
+            await _usuarioRepository.Adicionar(usuario);
         }
 
         public async Task Atualizar(Usuarios usuario)

@@ -30,7 +30,6 @@ namespace Confitec.WebApi
                 options.UseSqlServer(Configuration.GetConnectionString("DefaultConnection"));
             });
 
-            //services.AddValidatorsFromAssembly(typeof(UsuarioViewModelValidator).Assembly);
             services.AddScoped<IValidator<UsuarioViewModel>, UsuarioViewModelValidator>();
 
             services.AddSwaggerGen(options =>

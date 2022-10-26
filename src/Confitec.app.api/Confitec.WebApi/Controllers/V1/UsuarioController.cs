@@ -65,10 +65,6 @@ namespace Confitec.WebApi.Controllers.V1
         [HttpDelete("{id:int}")]
         public async Task<ActionResult<UsuarioViewModel>> Excluir(int id)
         {
-            var usuario = await _usuarioRepository.ObterPorId(id);
-
-            if (usuario == null) return NotFound();
-
             await _usuarioService.Remover(id);
 
             return NoContent();
